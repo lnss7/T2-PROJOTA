@@ -5,9 +5,8 @@ public class rallyDakkar {
     private double[] camps;
     private int numCamps;
 
-    public rallyDakkar(double L, double maxDistance, double[] stops) {
+    public rallyDakkar(double L, double[] stops) {
         this.L = L;
-        this.maxDistance = maxDistance;
         int n = stops.length;
         checkpoints = new double[n + 2];
         checkpoints[0] = 0.0;
