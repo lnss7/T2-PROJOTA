@@ -2,7 +2,7 @@ public class main {
     public static void main(String[] args) {
         // Example usage of the updated rallyDakkar class.
         double L = 1000.0;
-        double d = 200.0;
+        double d = 150.0;
         // Note: the constructor expects intermediate stops (excluding start 0 and end
         // L)
         double[] stops = new double[] { 150.0, 300.0, 400.0, 550.0, 700.0, 850.0 };
